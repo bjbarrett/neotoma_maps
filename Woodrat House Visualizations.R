@@ -8,7 +8,7 @@ str(houses)
 houses$name <- as.character(houses$name)
 houses <- houses[grepl("WC", houses$name),] #select Wragg Canoyin Only
 mapview(houses)
-
+rfid18 <- read.csv("/Volumes/ecology/eco_woodrats/Woodrat Database/2018 RFID.csv")
 trap <- read.csv("~/Dropbox/Quail Ridge Woodrat Data/House Occupancy Maps/ALL_WoodratTrapData_WraggCanyon_cleaned_BJB.csv")
 str(trap)
 str(houses)
@@ -70,41 +70,84 @@ for(i in unique(d2$Rat.ID)[1:20] ){
 
 for(i in unique(d2$Rat.ID)[21:40] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 for(i in unique(d2$Rat.ID)[41:60] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 for(i in unique(d2$Rat.ID)[61:80] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 for(i in unique(d2$Rat.ID)[81:100] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 for(i in unique(d2$Rat.ID)[101:120] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 for(i in unique(d2$Rat.ID)[121:140] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 for(i in unique(d2$Rat.ID)[141:158] ){
   print( mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery")
-         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , lpha.regions=1) )
+         + mapview(d2[d2$Rat.ID==i,] , zcol="date_index" , cex=5 , alpha=0 , alpha.regions=1) )
 }
 
 #######maps by year#############
 for(i in sort(unique(d2$year)) ){
-  print(mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery") + mapview(d2[d2$year==i,] , zcol="rat_id_index" , cex=6 ) )
+  print(mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0.1 , pch=19 , map.types="Esri.WorldImagery" , layer.name=i) + mapview(d2[d2$year==i,] , zcol="rat_id_index" , cex=6 ,  layer.name='Rat.ID') )
 }
-d2$ra
+
+mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0.1 , pch=19 , map.types="Esri.WorldImagery" )
+
+
+
+######RFID#########33
+str(rfid18)
+rfid18$location <- as.character(rfid18$denID_FileName)
+rfid18 <- rfid18[rfid18$ratID_local!='TST1',]
+rfid18 <- rfid18[rfid18$ratID_local!='TST2',]
+rfid18 <- rfid18[rfid18$ratID_local!='TST3',]
+rfid18 <- rfid18[rfid18$ratID_local!='TST4',]
+rfid18 <- rfid18[rfid18$ratID_local!='',]
+rfid18 <- droplevels(rfid18)
+unique(rfid18$ratID_local)
+
+table(rfid18$ratID_local)
+
+rfid18$Rat.ID <- rfid18$ratID_local
+
+
+r18 <- rfid18[,names(rfid18) %in% c("location" , "Rat.ID" , "dateISO" , "timeISO")]
+
+unique(r18$Rat.ID)
+r <-  merge(houses, r18 , by=intersect("location", "location") ,  duplicateGeoms = TRUE)
+r2 <- r[ complete.cases(r$Rat.ID) ,  ]
+r2$date <- ymd(r2$dateISO)
+r2$time <- hms(r2$timeIS0)
+
+r2$date_index <- as.integer(as.factor(r2$date))
+r2$year <- year(r2$date)
+r2$rat_id_index <- as.integer(as.factor(r2$Rat.ID))
+
+mapview(r2 , zcol='Rat.ID') 
+
+r2$rat_id_index <- as.integer(r2$Rat.ID)
+
+for(i in 1:max(r2$rat_id_index) ){
+  print(mapview(houses , color="grey" ,  alpha=.99 ,alpha.regions=0 , pch=19 , map.types="Esri.WorldImagery") + mapview(r2[r2$rat_id_index==i,] , zcol='date_index') )
+}
+  
+mapview(r2[r2$rat_id_index==1,] ) 
+
+

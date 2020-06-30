@@ -1,0 +1,1898 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1" creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2018-11-27T14:08:43Z</time>
+    <bounds maxlat="38.503307970240712" maxlon="-122.149110976606607" minlat="38.492161966860294" minlon="-122.155193220824003"/>
+  </metadata>
+
+  <wpt lat="38.492725985124707" lon="-122.150778975337744">
+    <ele>207.281845000000004</ele>
+    <time>2014-06-28T01:58:51Z</time>
+    <name>DC05</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:58:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493370972573757" lon="-122.149924021214247">
+    <ele>168.532272000000006</ele>
+    <time>2014-06-28T01:01:31Z</time>
+    <name>DC08</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:01:31Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493305006995797" lon="-122.150220992043614">
+    <ele>170.340590999999989</ele>
+    <time>2014-06-28T01:08:53Z</time>
+    <name>DC09</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:08:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493352029472589" lon="-122.150242030620575">
+    <ele>168.688644000000011</ele>
+    <time>2014-06-28T01:12:53Z</time>
+    <name>DC10</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:12:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493511034175754" lon="-122.152313031256199">
+    <ele>185.788803000000001</ele>
+    <time>2014-06-28T01:32:42Z</time>
+    <name>DC11</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:32:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492756998166442" lon="-122.151490012183785">
+    <ele>200.965683000000013</ele>
+    <time>2014-06-28T01:45:36Z</time>
+    <name>DC13</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:45:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492745012044907" lon="-122.15087503194809">
+    <ele>205.38394199999999</ele>
+    <time>2014-06-28T01:56:56Z</time>
+    <name>DC14</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:56:56Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492955984547734" lon="-122.150510000064969">
+    <ele>187.524704000000014</ele>
+    <time>2014-06-28T02:26:51Z</time>
+    <name>DC15</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T02:26:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493410032242537" lon="-122.15207900851965">
+    <ele>184.257538000000011</ele>
+    <time>2014-06-28T01:28:08Z</time>
+    <name>DC21</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:28:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492806032299995" lon="-122.150045977905393">
+    <ele>188.600249999999988</ele>
+    <time>2014-06-28T02:23:55Z</time>
+    <name>DC23</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T02:23:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.49277401342988" lon="-122.149110976606607">
+    <ele>173.528534000000008</ele>
+    <time>2014-06-28T00:48:51Z</time>
+    <name>DC24</name>
+    <cmt>24</cmt>
+    <desc>24</desc>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T00:48:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493373990058899" lon="-122.15016801841557">
+    <ele>167.590102999999999</ele>
+    <time>2014-06-28T01:14:13Z</time>
+    <name>DC25</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:14:13Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492161966860294" lon="-122.150504970923066">
+    <ele>209.810898000000009</ele>
+    <time>2014-06-28T02:15:45Z</time>
+    <name>DC34</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T02:15:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492941986769438" lon="-122.149594025686383">
+    <ele>177.717575000000011</ele>
+    <time>2014-06-28T00:56:24Z</time>
+    <name>DC41</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T00:56:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493248010054231" lon="-122.149969032034278">
+    <ele>170.732742000000002</ele>
+    <time>2014-06-28T01:04:57Z</time>
+    <name>DC42</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:04:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493251027539372" lon="-122.150025023147464">
+    <ele>170.244002999999992</ele>
+    <time>2014-06-28T01:06:55Z</time>
+    <name>DC43</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:06:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493322022259235" lon="-122.15034001506865">
+    <ele>170.822936999999996</ele>
+    <time>2014-06-28T01:16:07Z</time>
+    <name>DC44</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:16:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493337025865912" lon="-122.152466000989079">
+    <ele>190.501204999999999</ele>
+    <time>2014-06-28T01:36:38Z</time>
+    <name>DC45</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:36:38Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492595981806517" lon="-122.150891963392496">
+    <ele>214.701156999999995</ele>
+    <time>2014-06-28T02:07:08Z</time>
+    <name>DC47</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T02:07:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492562035098672" lon="-122.150750979781151">
+    <ele>214.66246000000001</ele>
+    <time>2014-06-28T02:10:30Z</time>
+    <name>DC48</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T02:10:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.493259996175766" lon="-122.152216974645853">
+    <ele>179.139953999999989</ele>
+    <time>2014-06-28T20:21:03Z</time>
+    <name>DC49</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T20:21:03Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.492835033684969" lon="-122.150849970057607">
+    <ele>201.320206000000013</ele>
+    <time>2014-06-28T01:53:40Z</time>
+    <name>DS46</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-28T01:53:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501651035621762" lon="-122.15517402626574">
+    <ele>217.676926000000009</ele>
+    <time>2013-04-15T16:43:20Z</time>
+    <name>WC01</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-15T16:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501703003421426" lon="-122.155093979090452">
+    <ele>203.289490000000001</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC01B</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50173301063478" lon="-122.154905973002315">
+    <ele>191.874709999999993</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC02</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501839963719249" lon="-122.15467999689281">
+    <ele>189.602280000000007</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC02B</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501780033111572" lon="-122.154941009357572">
+    <ele>190.054123000000004</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC03</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501871982589364" lon="-122.154727019369602">
+    <ele>188.432967999999988</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC04</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501965021714568" lon="-122.154678991064429">
+    <ele>205.662292000000008</ele>
+    <time>2013-04-15T16:43:20Z</time>
+    <name>WC05</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-15T16:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502241959795356" lon="-122.154151014983654">
+    <ele>199.075484999999986</ele>
+    <time>2013-04-15T16:43:20Z</time>
+    <name>WC05B</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-15T16:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502068035304546" lon="-122.154735988005996">
+    <ele>174.445938000000012</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC06</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501979019492865" lon="-122.154553011059761">
+    <ele>186.132918999999987</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC07</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502028975635767" lon="-122.154596010223031">
+    <ele>182.436217999999997</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC08</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502106005325913" lon="-122.154527027159929">
+    <ele>186.717072000000002</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC08B</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502285964787006" lon="-122.154458966106176">
+    <ele>173.386658000000011</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC08C</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50237900391221" lon="-122.154061999171972">
+    <ele>175.275620000000004</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC08D</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502403981983662" lon="-122.154184961691499">
+    <ele>168.318389999999994</ele>
+    <time>2013-07-18T21:47:08Z</time>
+    <name>WC08E</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-07-18T21:47:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502715034410357" lon="-122.153869969770312">
+    <ele>172.647446000000002</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC09</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502761973068118" lon="-122.154093012213707">
+    <ele>177</ele>
+    <time>2018-06-29T16:39:43Z</time>
+    <name>WC09B</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-29T16:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502845037728548" lon="-122.153766034170985">
+    <ele>169.169219999999996</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC10</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501968961209059" lon="-122.154331980273128">
+    <ele>211.219100999999995</ele>
+    <time>2013-04-15T16:43:20Z</time>
+    <name>WC11</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-15T16:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501724964007735" lon="-122.154354024678469">
+    <ele>218.950531000000012</ele>
+    <time>2013-04-15T16:43:20Z</time>
+    <name>WC12</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-15T16:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501724964007735" lon="-122.15425000526011">
+    <ele>220.454010000000011</ele>
+    <time>2013-04-15T16:43:20Z</time>
+    <name>WC13</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-15T16:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501769974827766" lon="-122.154596010223031">
+    <ele>210.273482999999999</ele>
+    <time>2013-04-30T17:33:18Z</time>
+    <name>WC14</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-30T17:33:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50160451605916" lon="-122.155170002952218">
+    <ele>193.275101000000006</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC15</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50224900059402" lon="-122.153754970058799">
+    <ele>182.660903999999988</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC18</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502235002815723" lon="-122.153767962008715">
+    <ele>182.660903999999988</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC19</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502118997275829" lon="-122.15364801697433">
+    <ele>209.587311</ele>
+    <time>2014-07-12T01:15:44Z</time>
+    <name>WC20</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-12T01:15:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502251012250781" lon="-122.153643993660808">
+    <ele>189.387009000000006</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC21</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502276996150613" lon="-122.153629995882511">
+    <ele>188.296982000000014</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC22</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502284036949277" lon="-122.153565036132932">
+    <ele>191.489028999999988</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC23</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502327958121896" lon="-122.153551960363984">
+    <ele>190.682983000000007</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC24</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502443041652441" lon="-122.153586996719241">
+    <ele>186.111771000000005</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC25</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502452010288835" lon="-122.153629995882511">
+    <ele>183.937149000000005</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC26</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502410016953945" lon="-122.153662014752626">
+    <ele>183.906859999999995</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC27</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502342039719224" lon="-122.153809033334255">
+    <ele>194.202179000000001</ele>
+    <time>2014-07-12T01:33:06Z</time>
+    <name>WC28</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-12T01:33:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50242200307548" lon="-122.153844991698861">
+    <ele>191.417342999999988</ele>
+    <time>2014-07-12T01:33:53Z</time>
+    <name>WC29</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-12T01:33:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502107011154294" lon="-122.153747007250786">
+    <ele>186.333724999999987</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC30</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502038028091192" lon="-122.153704008087516">
+    <ele>190.038071000000002</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC31</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502003997564316" lon="-122.153696967288852">
+    <ele>190.421478000000008</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC32</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501894026994705" lon="-122.153858989477158">
+    <ele>193.032013000000006</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC33</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501901989802718" lon="-122.153900982812047">
+    <ele>192.416350999999992</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC34</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501952029764652" lon="-122.153904000297189">
+    <ele>190.151488999999998</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC35</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.501999974250793" lon="-122.154019000008702">
+    <ele>185.307770000000005</ele>
+    <time>2013-04-22T16:59:45Z</time>
+    <name>WC36</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-22T16:59:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502448992803693" lon="-122.153767962008715">
+    <ele>183.123306000000014</ele>
+    <time>2013-06-14T20:16:39Z</time>
+    <name>WC37</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-06-14T20:16:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.5025729611516" lon="-122.15371398255229">
+    <ele>187.640944999999988</ele>
+    <time>2013-06-14T20:16:39Z</time>
+    <name>WC38</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-06-14T20:16:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502456033602357" lon="-122.153804004192352">
+    <ele>189.036819000000008</ele>
+    <time>2013-06-14T20:16:39Z</time>
+    <name>WC39</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-06-14T20:16:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502899017184973" lon="-122.153583979234099">
+    <ele>183.910720999999995</ele>
+    <time>2013-06-14T20:16:39Z</time>
+    <name>WC40</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-06-14T20:16:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502946961671114" lon="-122.153545003384352">
+    <ele>174.237198000000006</ele>
+    <time>2013-07-18T21:47:08Z</time>
+    <name>WC41</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-07-18T21:47:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502806983888149" lon="-122.153466967865825">
+    <ele>183.638565</ele>
+    <time>2013-07-18T21:47:08Z</time>
+    <name>WC42</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-07-18T21:47:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502715034410357" lon="-122.153549026697874">
+    <ele>186.613814999999988</ele>
+    <time>2013-07-18T21:47:08Z</time>
+    <name>WC43</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-07-18T21:47:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503264971077442" lon="-122.153454981744289">
+    <ele>174.114120000000014</ele>
+    <time>2016-06-11T14:58:24Z</time>
+    <name>WC44</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T14:58:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503042012453079" lon="-122.153185000643134">
+    <ele>185.226456000000013</ele>
+    <time>2016-06-11T15:12:36Z</time>
+    <name>WC45</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T15:12:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503020973876119" lon="-122.152870008721948">
+    <ele>197.354659999999996</ele>
+    <time>2016-06-11T15:17:18Z</time>
+    <name>WC46</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T15:17:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503082999959588" lon="-122.152893980965018">
+    <ele>192.718245999999994</ele>
+    <time>2016-06-11T15:45:05Z</time>
+    <name>WC47</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T15:45:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503129016608" lon="-122.153040999546647">
+    <ele>185.176498000000009</ele>
+    <time>2016-06-11T15:06:53Z</time>
+    <name>WC48</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T15:06:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50293799303472" lon="-122.153294971212745">
+    <ele>190.528563999999989</ele>
+    <time>2016-06-11T15:27:08Z</time>
+    <name>WC49</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T15:27:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502886025235057" lon="-122.153296982869506">
+    <ele>194.044846000000007</ele>
+    <time>2016-06-11T15:32:31Z</time>
+    <name>WC50</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-06-11T15:32:31Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502994989976287" lon="-122.153269993141294">
+    <ele>186.191528000000005</ele>
+    <time>2016-08-14T00:52:35Z</time>
+    <name>WC51</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-08-14T00:52:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502899017184973" lon="-122.153136972337961">
+    <ele>196.012237999999996</ele>
+    <time>2016-08-14T00:43:21Z</time>
+    <name>WC52</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-08-14T00:43:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502856018021703" lon="-122.153096990659833">
+    <ele>198.104186999999996</ele>
+    <time>2016-08-14T00:41:14Z</time>
+    <name>WC53</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-08-14T00:41:14Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502798015251756" lon="-122.153108976781368">
+    <ele>201.757094999999993</ele>
+    <time>2016-08-14T00:36:21Z</time>
+    <name>WC54</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-08-14T00:36:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50287496112287" lon="-122.153018033131957">
+    <ele>197.218078999999989</ele>
+    <time>2016-08-14T00:31:57Z</time>
+    <name>WC55</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-08-14T00:31:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502819975838065" lon="-122.153219031170011">
+    <ele>204</ele>
+    <time>2018-05-06T00:44:46Z</time>
+    <name>WC56</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-06T00:44:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502784017473459" lon="-122.153234034776688">
+    <ele>206</ele>
+    <time>2018-05-06T00:45:09Z</time>
+    <name>WC57</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-06T00:45:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502686033025384" lon="-122.153288014233112">
+    <ele>208</ele>
+    <time>2018-05-06T00:46:01Z</time>
+    <name>WC58</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-06T00:46:01Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.50261696614325" lon="-122.153341993689537">
+    <ele>205</ele>
+    <time>2018-05-06T00:53:00Z</time>
+    <name>WC59</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-06T00:53:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.502519987523556" lon="-122.153436960652471">
+    <ele>207</ele>
+    <time>2018-05-06T00:48:25Z</time>
+    <name>WC60</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-06T00:48:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503146031871438" lon="-122.15257597155869">
+    <ele>207</ele>
+    <time>2018-06-29T16:58:16Z</time>
+    <name>WC61</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-29T16:58:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503197999671102" lon="-122.152450997382402">
+    <ele>200</ele>
+    <time>2018-06-29T17:06:20Z</time>
+    <name>WC62</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-29T17:06:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503307970240712" lon="-122.152432976290584">
+    <ele>194</ele>
+    <time>2018-06-29T17:10:49Z</time>
+    <name>WC63</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-29T17:10:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.503282992169261" lon="-122.153103025630116">
+    <ele>185</ele>
+    <time>2018-06-29T17:17:58Z</time>
+    <name>WC64</name>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-29T17:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <trk>
+    <name>Bottom Road</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="38.50163284689188" lon="-122.155193220824003">
+        <time>2015-07-25T19:53:05Z</time>
+      </trkpt>
+      <trkpt lat="38.501650365069509" lon="-122.155108228325844"/>
+      <trkpt lat="38.501699063926935" lon="-122.155037065967917"/>
+      <trkpt lat="38.501740805804729" lon="-122.154959533363581"/>
+      <trkpt lat="38.501761760562658" lon="-122.154901949688792"/>
+      <trkpt lat="38.501781206578016" lon="-122.154858447611332"/>
+      <trkpt lat="38.501806436106563" lon="-122.154827602207661"/>
+      <trkpt lat="38.50183711387217" lon="-122.154782256111503"/>
+      <trkpt lat="38.501913556829095" lon="-122.154690977185965"/>
+      <trkpt lat="38.501954292878509" lon="-122.154621910303831"/>
+      <trkpt lat="38.50199343636632" lon="-122.154567847028375"/>
+      <trkpt lat="38.502041297033429" lon="-122.154529793187976"/>
+      <trkpt lat="38.502081362530589" lon="-122.154417559504509"/>
+      <trkpt lat="38.502112375572324" lon="-122.154354779049754"/>
+      <trkpt lat="38.502150680869818" lon="-122.154288394376636"/>
+      <trkpt lat="38.502206923440099" lon="-122.154181022197008"/>
+      <trkpt lat="38.502216981723905" lon="-122.154111536219716"/>
+      <trkpt lat="38.502254197373986" lon="-122.154018497094512"/>
+      <trkpt lat="38.502267440780997" lon="-122.15397440828383"/>
+      <trkpt lat="38.502342374995351" lon="-122.153963344171643"/>
+      <trkpt lat="38.502389816567302" lon="-122.153978934511542"/>
+      <trkpt lat="38.502459302544594" lon="-122.153964350000024"/>
+      <trkpt lat="38.502585701644421" lon="-122.153911292552948"/>
+      <trkpt lat="38.502943189814687" lon="-122.15375991538167"/>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Top Road/Chamise Line</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+      <gpxtrkx:TrackStatsExtension xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1">
+        <gpxtrkx:Distance>322</gpxtrkx:Distance>
+        <gpxtrkx:TotalElapsedTime>220</gpxtrkx:TotalElapsedTime>
+        <gpxtrkx:MovingTime>123</gpxtrkx:MovingTime>
+        <gpxtrkx:StoppedTime>98</gpxtrkx:StoppedTime>
+        <gpxtrkx:MovingSpeed>3</gpxtrkx:MovingSpeed>
+        <gpxtrkx:MaxSpeed>5</gpxtrkx:MaxSpeed>
+        <gpxtrkx:MaxElevation>227</gpxtrkx:MaxElevation>
+        <gpxtrkx:MinElevation>219</gpxtrkx:MinElevation>
+        <gpxtrkx:Ascent>7</gpxtrkx:Ascent>
+        <gpxtrkx:Descent>4</gpxtrkx:Descent>
+        <gpxtrkx:AvgAscentRate>0</gpxtrkx:AvgAscentRate>
+        <gpxtrkx:MaxAscentRate>0</gpxtrkx:MaxAscentRate>
+        <gpxtrkx:AvgDescentRate>0</gpxtrkx:AvgDescentRate>
+        <gpxtrkx:MaxDescentRate>-0</gpxtrkx:MaxDescentRate>
+      </gpxtrkx:TrackStatsExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="38.503028433769941" lon="-122.152586616575718">
+        <ele>220.280000000000001</ele>
+        <time>2014-05-31T01:01:42Z</time>
+      </trkpt>
+      <trkpt lat="38.503018543124199" lon="-122.152643110603094">
+        <ele>219.319999999999993</ele>
+        <time>2014-05-31T01:02:13Z</time>
+      </trkpt>
+      <trkpt lat="38.502952326089144" lon="-122.152772946283221">
+        <ele>220.280000000000001</ele>
+        <time>2014-05-31T01:02:47Z</time>
+      </trkpt>
+      <trkpt lat="38.502858364954591" lon="-122.1529311966151">
+        <ele>220.280000000000001</ele>
+        <time>2014-05-31T01:02:55Z</time>
+      </trkpt>
+      <trkpt lat="38.50277915596962" lon="-122.153123058378696">
+        <ele>222.199999999999989</ele>
+        <time>2014-05-31T01:03:03Z</time>
+      </trkpt>
+      <trkpt lat="38.502678070217371" lon="-122.153271920979023">
+        <ele>222.680000000000007</ele>
+        <time>2014-05-31T01:03:09Z</time>
+      </trkpt>
+      <trkpt lat="38.502517053857446" lon="-122.15341248549521">
+        <ele>223.639999999999986</ele>
+        <time>2014-05-31T01:03:15Z</time>
+      </trkpt>
+      <trkpt lat="38.502345727756619" lon="-122.153502758592367">
+        <ele>223.639999999999986</ele>
+        <time>2014-05-31T01:03:20Z</time>
+      </trkpt>
+      <trkpt lat="38.502174988389015" lon="-122.153572496026754">
+        <ele>225.090000000000003</ele>
+        <time>2014-05-31T01:03:25Z</time>
+      </trkpt>
+      <trkpt lat="38.501995615661144" lon="-122.153654219582677">
+        <ele>225.090000000000003</ele>
+        <time>2014-05-31T01:03:30Z</time>
+      </trkpt>
+      <trkpt lat="38.50187667645514" lon="-122.153779109939933">
+        <ele>225.569999999999993</ele>
+        <time>2014-05-31T01:03:35Z</time>
+      </trkpt>
+      <trkpt lat="38.50177064538002" lon="-122.153950687497854">
+        <ele>226.530000000000001</ele>
+        <time>2014-05-31T01:03:41Z</time>
+      </trkpt>
+      <trkpt lat="38.501743571832776" lon="-122.154144812375307">
+        <ele>225.569999999999993</ele>
+        <time>2014-05-31T01:03:46Z</time>
+      </trkpt>
+      <trkpt lat="38.501750444993377" lon="-122.154364669695497">
+        <ele>226.530000000000001</ele>
+        <time>2014-05-31T01:03:52Z</time>
+      </trkpt>
+      <trkpt lat="38.501704763621092" lon="-122.154555944725871">
+        <ele>227.009999999999991</ele>
+        <time>2014-05-31T01:03:57Z</time>
+      </trkpt>
+      <trkpt lat="38.501669224351645" lon="-122.154754512012005">
+        <ele>226.530000000000001</ele>
+        <time>2014-05-31T01:04:03Z</time>
+      </trkpt>
+      <trkpt lat="38.501649359241128" lon="-122.15496146120131">
+        <ele>224.610000000000014</ele>
+        <time>2014-05-31T01:04:08Z</time>
+      </trkpt>
+      <trkpt lat="38.501600073650479" lon="-122.155161118134856">
+        <ele>223.639999999999986</ele>
+        <time>2014-05-31T01:04:13Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+</gpx>

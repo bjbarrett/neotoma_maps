@@ -13,26 +13,26 @@ library(gmp)#large integers to hex
 
 
 ###########start cleaning###################
-rat_master <- read.table("~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/WraggRFIDMasterList.csv" , header =TRUE, sep = ";", dec = "." ,  stringsAsFactors=FALSE)
+rat_master <- read.table("~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/WraggRFIDMasterList.csv" , header =TRUE, sep = ",", dec = "." ,  stringsAsFactors=FALSE)
 rat_master <- clean_names(rat_master)
 str(rat_master)
 
 #############################2013################################
 
 ###reads one folder
-dir <- "/Users/BJB/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013/WC01"
-dir <- "~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013/WC01"
-
-list.files(dir,recursive = TRUE) #reads subfiles
-
-nm1 <- c("yymmddhhmmss","main_or_aux","decimal_RFID","file_name") #rename columns vector
-files = list.files(dir,recursive = TRUE , full.names = TRUE , pattern=".txt")
-files <- files[ !grepl("F.txt", files) ] #excludes files that end with F.txt
-files_short <- list.files(dir,recursive = TRUE , full.names = FALSE , pattern=".txt")
-files_short <- files_short[ !grepl("F.txt", files_short) ]
+# dir <- "/Users/BJB/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013/WC01"
+# dir <- "~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013/WC01"
+# 
+# list.files(dir,recursive = TRUE) #reads subfiles
+# 
+# nm1 <- c("yymmddhhmmss","main_or_aux","decimal_RFID","file_name") #rename columns vector
+# files = list.files(dir,recursive = TRUE , full.names = TRUE , pattern=".txt")
+# files <- files[ !grepl("F.txt", files) ] #excludes files that end with F.txt
+# files_short <- list.files(dir,recursive = TRUE , full.names = FALSE , pattern=".txt")
+# files_short <- files_short[ !grepl("F.txt", files_short) ]
 
 ###reads all of 2013
-dir <- "/Users/BJB/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013"
+#dir <- "/Users/BJB/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013"
 dir <- "~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2013"
 
 list.files(dir,recursive = TRUE) #reads subfiles
@@ -122,23 +122,84 @@ files_short <- files_short[which(!file.size(files_nz) == 0)]
 rfid2016 <- setNames(do.call(rbind,Map(`cbind`, 
                                        lapply(files, read.table, header = FALSE, sep = " ", dec = "." ,  stringsAsFactors=FALSE), V4=files_short)), nm1)
 
+#############################2017################################
+dir <- "~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2017/"
 
+list.files(dir,recursive = TRUE) #reads subfiles
+
+nm1 <- c("yymmddhhmmss","main_or_aux","decimal_RFID","file_name") #rename columns vector
+files = list.files(dir,recursive = TRUE , full.names = TRUE , pattern=".txt")
+files <- files[ !grepl("F.txt", files) ] #excludes files that end with F.txt
+files <- files[ !grepl("Ftxt", files) ] #excludes files that end with F.txt
+files_nz <- files #indexing for files short
+files_zero <- files[which(file.size(files) == 0)]
+files <- files[which(!file.size(files) == 0)]
+
+files_short <- list.files(dir,recursive = TRUE , full.names = FALSE , pattern=".txt")
+files_short <- files_short[ !grepl("F.txt", files_short) ]
+files_short <- files_short[ !grepl("Ftxt", files_short) ]
+
+files_short_zero <- files_short[which(file.size(files_nz) == 0)]
+files_short <- files_short[which(!file.size(files_nz) == 0)]
+
+rfid2017 <- setNames(do.call(rbind,Map(`cbind`, 
+                                       lapply(files, read.table, header = FALSE, sep = " ", dec = "." ,  stringsAsFactors=FALSE), V4=files_short)), nm1)
 ############ lets add rat id
 rfid2013$year <- 2013
 rfid2014$year <- 2014
 rfid2015$year <- 2015
 rfid2016$year <- 2016
+rfid2017$year <- 2017
 
-rfid <- rbind(rfid2013 ,rfid2014,rfid2015,rfid2016)
-#rfid <- rfid2015
+rfid <- rbind(rfid2013 ,rfid2014,rfid2015,rfid2016,rfid2017)
+rfid <- rfid2017
 
 #rat_master <- rat_master[rat_master$year < 2015 | rat_master$year>2020,]
 rat_master$rfid_hex2[rat_master$rat_id=="TST2"] <- 1041041 ##override weird error
 
-
-rfid$decimal_rfid_ncc <-sub('...', '', rfid$decimal_RFID) #cut off 999 which is country code from RFID
+rfid$decimal_rfid_ncc <- as.numeric(sub('...', '', rfid$decimal_RFID)) #cut off 999 which is country code from RFID, convert to numeric
 rfid$hexidecimal_rfid <- toupper(as.character(as.bigz(rfid$decimal_rfid_ncc),b=16)) #convert to hexi
+unique(rfid$hexidecimal_rfid)
+unique(rfid$decimal_rfid_ncc)
 
+# ####look at how each value is converted
+# test_deci <- sort(unique(rfid$decimal_rfid_ncc ))
+# test_deci
+# toupper(as.character(as.bigz(sub('', '', test_deci) ),b=16)) 
+# 
+# toupper(as.character(as.bigz(sub('...', '', "000182596296") ),b=16))
+# toupper(as.character(as.bigz(sub('..', '', "000182596296") ),b=16))
+# toupper(as.character(as.bigz(sub('', '', "000182596296") ),b=16))
+# 
+# toupper(as.character(as.bigz(sub('...', '', "000101010101") ),b=16))
+# toupper(as.character(as.bigz(sub('..', '', 000101010101) ),b=16))
+# toupper(as.character(as.bigz(sub('', '', "000182596296") ),b=16))
+# 
+# test_hexi_3 <- toupper(as.character(as.bigz(sub('', '', test_deci) ),b=16)) ###good for the 1B7 and C2C
+# test_hexi_5 <- toupper(as.character(as.bigz(sub('..', '', test_deci) ),b=16)) ###good for the 3BDDB and 1DCED
+# test_hexi_6
+# toupper(as.character(as.bigz(sub('', '', test_deci) ),b=16)) ###good for 15C4
+
+
+# 
+# ###isolate 2017 issues
+# deci_2017_14dig <- sort(unique(rfid$decimal_RFID))
+# deci_2017_11dig <- sort(unique(rfid$decimal_rfid_ncc))
+# 
+# toupper(as.character(as.bigz(deci_2017_14dig ),b=16)) #convert to hexi
+# 
+# sort(unique(toupper(as.character(as.bigz(sub('......', '', rfid$decimal_RFID) ),b=16))))
+# sort(unique(toupper(as.character(as.bigz(sub('.....', '', rfid$decimal_RFID) ),b=16)))) 
+# sort(unique(toupper(as.character(as.bigz(sub('...', '', rfid$decimal_RFID) ),b=16)))) ###good for the 1B7 and C2C
+# 
+# sort(unique(sub('...', '', rfid$decimal_RFID)))
+# 
+# # toupper(as.hexmode(as.integer(sort(unique(sub('...', '', rfid$decimal_RFID)))))) #converts to hexidecimal and the uppercases letters
+# # toupper(as.hexmode(as.integer(sort(unique(sub('.....', '', rfid$decimal_RFID)))))) #converts to hexidecimal and the uppercases letters
+# # toupper(as.hexmode(as.integer(sort(unique(sub('......', '', rfid$decimal_RFID)))))) #converts to hexidecimal and the uppercases letters
+# 
+# 
+# rfid$hexidecimal_rfid <- toupper(as.character(as.bigz(rfid$decimal_rfid_ncc),b=16)) #convert to hexi
 
 sort(unique(rfid$decimal_RFID))
 sort(unique(rfid$decimal_rfid_ncc))
@@ -151,8 +212,8 @@ sort(unique(rat_master$rfid_hex4))
 
 rfid$rat_id <- 0
 
-rfid[rfid$hexidecimal_rfid=="NA",] #evaluate NAs, these seem to be weird testers of a mystery pit tag in WC21/WC21_RFIDLOG20140926.txt 2014  
-rfid[rfid$hexidecimal_rfid=="1041041",] 
+#rfid[rfid$hexidecimal_rfid=="NA",] #evaluate NAs, these seem to be weird testers of a mystery pit tag in WC21/WC21_RFIDLOG20140926.txt 2014  
+#rfid[rfid$hexidecimal_rfid=="1041041",] 
 rfid <- rfid[rfid$hexidecimal_rfid!="NA",] 
 
 #append rat id
@@ -170,27 +231,30 @@ rfid$hhmmss <- str_sub(rfid$yymmddhhmmss,-6,-1)
 rfid_issues <- rfid[rfid$rat_id=="xxxx",]
 write.csv(rfid_issues , "rfid_issues.csv")
 unique(rfid_issues$hexidecimal_rfid)
-####Stopped here######
 
-sort(unique(rfid$decimal_RFID))
-sort(unique(rfid$decimal_RFID))
 
 rfid$house_id <- substr(rfid$file_name, 1, 5)#selects first 5 charachters of file name
 rfid$house_id <- gsub("_.*","",rfid$house_id)#removes everthing after_
+rfid$house_id <- gsub("/.*","",rfid$house_id)#removes everthing after/
 
+####Stopped here######
+
+
+#########notes on misfit tags not in original master, test tags were added
 ##test tag before deployment: 1B79702128 dirunal most days right
 #likely a tester , dates right many houses 1B79702287
 
-#another test tag: 1C2C8985EB
-#another test tag: 1B79702128
-# rat at 34B 1B7970228F 2015
-# another rat 1B797025C4 that moved around much //2015-2016
+#another test tag: 1C2C8985EB--FIXED
+#another test tag: 1B79702128----FIXED
+# rat at 34B 1B7970228F 2015---FIXED
+# another rat 1B797025C4 that moved around much //2015-2016 ----FIXED
 #another rat that moved around 1B797025F4 //2015-2016
-# likely tester 1B797028E4 2013-2015
-# tester or rat at WC31. dates all messed up 1B79702A01
-#likely a rat in 2013 and 2014 1B79702A67 @WC21,22,23
+# likely tester 1B797028E4 2013-2015 ---FIXED
+# rat at WC31. dates all messed up 1B79702A01---FIXED IS A RAT, DATES NEED ATTENTION
+#likely a rat in 2013 and 2014 1B79702A67 @WC21,22,23 __NEEDS FIXIN
 #one time afternoon in 2016, maybe it belonged to annies or one i borrowed from tez 2056C463
 ### eff if i know. date messed just after midnight, 2 scans 9C9
+##seems like a tester in 2014 1B79702287, mostly diurnal
 
 
 

@@ -159,44 +159,48 @@ rfid2018 <- setNames(do.call(rbind,Map(`cbind`,
 ##deal with fromdat later
 
 ############################2019################################
-# dir <- "~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2019/"
-# 
-# list.files(dir,recursive = TRUE) #reads subfiles
-# 
-# nm1 <- c("yymmddhhmmss","main_or_aux","decimal_RFID","file_name") #rename columns vector
-# files = list.files(dir,recursive = TRUE , full.names = TRUE , pattern=".txt")
-# files <- files[ !grepl("F.txt", files) ] #excludes files that end with F.txt
-# files <- files[ !grepl("Ftxt", files) ] #excludes files that end with F.txt
-# files_nz <- files #indexing for files short
-# files_zero <- files[which(file.size(files) == 0)]
-# files <- files[which(!file.size(files) == 0)]
-# 
-# files_short <- list.files(dir,recursive = TRUE , full.names = FALSE , pattern=".txt")
-# files_short <- files_short[ !grepl("F.txt", files_short) ]
-# files_short <- files_short[ !grepl("Ftxt", files_short) ]
-# 
-# files_short_zero <- files_short[which(file.size(files_nz) == 0)]
-# files_short <- files_short[which(!file.size(files_nz) == 0)]
-# 
-# #below was for troubleshooting issues w/ raw files and identifying where to see $ or blank spaces to delete to match column numbers
-# 
-# ncol_tab <- rep(NA,length(files))
-# 
-# for(i in 1:length(files)){
-#   rfid2019 <- setNames(do.call(rbind,Map(`cbind`,
-#                               lapply(files[i], read.table, header = FALSE, sep = " ", dec = "." ,  stringsAsFactors=FALSE), V4=files_short[i])), nm1)
-#   print(i)
-#   print("NCOL")
-#   print(ncol(rfid2019) )
-#   ncol_tab[i] <- ncol(rfid2019)
-# }
-#  files[i]
-#  
-# print(ncol_tab)
-# files_five <- files[isTRUE(ncol_tab > 4)] ####figure out how to see files w/ 5 things
-# ncol_tab > 4
-# rfid2019 <- setNames(do.call(rbind,Map(`cbind`, 
-#                                        lapply(files, read.table, header = FALSE, sep = " ", dec = "." ,  stringsAsFactors=FALSE), V4=files_short)), nm1)
+dir <- "~/Dropbox/Quail Ridge Woodrat Data/RFID_from_server/RFID Data 2019/"
+
+list.files(dir,recursive = TRUE) #reads subfiles
+
+nm1 <- c("yymmddhhmmss","main_or_aux","decimal_RFID","file_name") #rename columns vector
+files = list.files(dir,recursive = TRUE , full.names = TRUE , pattern=".txt")
+files <- files[ !grepl("F.txt", files) ] #excludes files that end with F.txt
+files <- files[ !grepl("Ftxt", files) ] #excludes files that end with F.txt
+files_nz <- files #indexing for files short
+files_zero <- files[which(file.size(files) == 0)]
+files <- files[which(!file.size(files) == 0)]
+
+files_short <- list.files(dir,recursive = TRUE , full.names = FALSE , pattern=".txt")
+files_short <- files_short[ !grepl("F.txt", files_short) ]
+files_short <- files_short[ !grepl("Ftxt", files_short) ]
+
+files_short_zero <- files_short[which(file.size(files_nz) == 0)]
+files_short <- files_short[which(!file.size(files_nz) == 0)]
+
+#below was for troubleshooting issues w/ raw files and identifying where to see $ or blank spaces to delete to match column numbers
+
+ncol_tab <- rep(NA,length(files))
+
+for(i in 1:length(files)){
+  rfid2019 <- setNames(do.call(rbind,Map(`cbind`,
+                              lapply(files[i], read.table, header = FALSE, sep = " ", dec = "." ,  stringsAsFactors=FALSE), V4=files_short[i])), nm1)
+  print(i)
+  print("NCOL")
+  print(ncol(rfid2019) )
+  ncol_tab[i] <- ncol(rfid2019)
+}
+ files[i]
+
+print(ncol_tab)
+
+which(ncol_tab %in% 4)
+files_four <- files[which(ncol_tab %in% 4)] ####figure out how to see files w/ 5 things
+files_five <- files[which(ncol_tab %in% 5)]
+
+#deal with simple files 4 first 
+rfid2019_four <- setNames(do.call(rbind,Map(`cbind`,
+                                       lapply(files_four, read.table, header = FALSE, sep = " ", dec = "." ,  stringsAsFactors=FALSE), V4=files_short[which(ncol_tab %in% 4)] )), nm1)
 
 
 ############ lets add rat id
@@ -206,9 +210,10 @@ rfid2015$year <- 2015
 rfid2016$year <- 2016
 rfid2017$year <- 2017
 rfid2018$year <- 2018
+rfid2019_four$year <- 2019
 #rfid2019$year <- 2019
 
-rfid <- rbind(rfid2013 ,rfid2014,rfid2015,rfid2016,rfid2017,rfid2018)
+rfid <- rbind(rfid2013 ,rfid2014,rfid2015,rfid2016,rfid2017,rfid2018,rfid2019_four)
 #rfid <- rfid2017
 
 #rat_master <- rat_master[rat_master$year < 2015 | rat_master$year>2020,]
